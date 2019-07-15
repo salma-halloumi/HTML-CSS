@@ -1,0 +1,23 @@
+.grid-container{
+  display:grid;
+  background-color: black;
+  grid-template-columns: 200px 300px 100px;
+  width:606px;
+  grid-gap:3px;
+  padding: 3px;
+}
+
+.grid-item{
+ background-color: white;
+  color: black;
+  text-align: center;
+  padding: 3px;
+}
+
+.grid-item:nth-child(2){
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: aqua;
+}
+.grid-item:last-child{
+  background-color: rgb(225, 0, 255);
+}
