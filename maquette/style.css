@@ -59,9 +59,9 @@ section {
 
 .phones {
   position: absolute;
-  width: 60%;
-  top: 600px;
-  right: 10px;
+  top:520px;
+  right:10px;
+  width:60%;
   z-index: 1;
 }
 
@@ -112,7 +112,6 @@ section {
 }
 
 .blue-button {
-  position: relative;
   align-self: center;
   margin-top: 10px;
   background-image: url(img/Rounded-Rectangle100.svg);
@@ -122,20 +121,38 @@ section {
 }
 
 .blue-button p {
-  position: absolute;
-  margin: 0;
-  top: 3px;
-  left: 25px;
+  width:100px;
   font-size: 8pt;
   text-align: center;
+  padding-top:3px ;
+  margin:0;
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 426px) {
+  .phones{
+    top:620px;
+  }
+}
+
+@media screen and (min-width: 690px)
+{
+  .phones{
+    top:420px;
+  }
+}
 /*tablette*/
 
 @media screen and (min-width: 768px) {
   body {
     font-size: 14pt;
+  }
+  section {
+    padding: 30px;
   }
   #image-fond {
     right: -300px;
@@ -172,22 +189,19 @@ section {
     font-size: 12pt;
   }
   .blue-button {
-    background-image: url(img/Rounded-Rectangle150.svg);
-    background-repeat: no-repeat;
-    width:auto;
-    height:40px;
+    background-image: url(img/Rounded-Rectangle167x33.svg);
+    height:33px;
   }
   .blue-button p {
-    top: 10px;
-    left:60px;
-    font-size: 10pt;
+    font-size: 12pt;
+    width:167px;
+    padding-top:7px ;
   }
   .phones {
     position: absolute;
-    width: 60%;
-    top: 370px;
+    width: 50%;
+    top: 400px;
     right: 10px;
-    z-index: 1;
   }
 }
 
@@ -196,6 +210,9 @@ section {
 @media screen and (min-width: 992px) {
   body {
     font-size: 16pt;
+  }
+  section {
+    padding: 40px;
   }
   #image-fond {
     right: 0;
@@ -226,22 +243,19 @@ section {
 
   .blue-button {
     background-image: url(img/Rounded-Rectangle167x33.svg);
-    background-repeat: no-repeat;
-    width:auto;
     height:33px;
   }
   .blue-button p {
-    top: 9px;
-    left:60px;
     font-size: 12pt;
+    width:167px;
+    padding-top:6px ;
   }
 
   .phones {
     position: absolute;
-    width: 40%;
-    top: 370px;
-    right: 10px;
-    z-index: 1;
+    width:40%;
+    top:550px;
+    right: 50px;
   }
 }
 
@@ -249,8 +263,49 @@ section {
 
 @media screen and (min-width: 1200px) {
 
-  .blue-button{
+  body {
+    font-size: 18pt;
+  }
+  section {
+    padding: 100px;
+  }
+  .text-masthead p {
+    width: 60%;
+  }
+  .text-masthead h1 {
+    width: 60%;
+    font-size: 50pt;
+  }
+  .screens-content {
+    width: 40%;
+  }
+  .screens-title {
+    font-size: 16pt;
+  }
+  .screens p {
+    font-size: 12pt;
+  }
+  .text {
+    flex-flow: row nowrap;
+    font-size: 12pt;
+  }
+  .text h2 {
+    font-size: 14pt;
+  }
+
+  .blue-button {
     background-image: url(img/Rounded-Rectangle200.svg);
     height:40px;
+  }
+  .blue-button p {
+    font-size: 12pt;
+    width:200px;
+    padding-top:6px ;
+  }
+
+  .phones {
+    position: absolute;
+    width: 40%;
+    top: 550px;
   }
 }
