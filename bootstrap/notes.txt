@@ -1,0 +1,31 @@
+             largeur container
+xs <768px    all
+sm >=768px   750px
+md >=992px   970px
+lg >=1200px  1170px
+
+pour les largeurs responsives:
+
+<div class="row">
+col-xs-2 col-sm etc..
+</div>
+
+
+pour changer les couleurs: text-primary text-success text-danger etc..
+
+pour changer les couleurs des bg: bg-primary etc..
+
+les formulaires: form-group pour les balises div à l'interieur de form
+ et form-control pour les inputs 
+
+ pour mettre tous les inputs dans la meme ligne : form-inline dans la balise form
+
+ on peut ajouter des couleurs de bord pour les input (généralement avec du js) avec les class has-success has-error etc..
+
+ pour agrandir la taille des inputs: ajouter form-control-lg à form-control (dans la v3 c'est input-lg)
+
+pour mettre des checkbox ou/et des radio dans la meme ligne on ajoute form-check-inline à form-check
+
+ !!! ATTENTION  class="class1 class2"  et pas class="class1" class="class2" !!!
+
+ use btn-sm for smaller buttons and btn-outline-primary for border color
