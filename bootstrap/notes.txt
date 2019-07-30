@@ -29,3 +29,5 @@ pour mettre des checkbox ou/et des radio dans la meme ligne on ajoute form-check
  !!! ATTENTION  class="class1 class2"  et pas class="class1" class="class2" !!!
 
  use btn-sm for smaller buttons and btn-outline-primary for border color
+ 
+ https://www.codingame.com/playgrounds/41455/bootstrap/exercice-1
